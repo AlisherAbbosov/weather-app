@@ -65,7 +65,7 @@ let updatedDate = data => {
     "Friday",
     "Saturday",
   ];
-  let day = days[time.getDate()];
+  let day = days[time.getDay()];
   return `${day} ${hours}:${minutes}`;
 };
 
